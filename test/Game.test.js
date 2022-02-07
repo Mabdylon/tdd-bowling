@@ -6,5 +6,4 @@ afterAll(() => {});
 
 it("Should ", () => {
   const game = new Game();
-  expect(game).toBe(false);
 });

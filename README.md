@@ -32,4 +32,9 @@ npm run test:watch
 npm run test:cover
 ```
 
+<<<<<<< HEAD
 Note: coverage is also included in watch mode.
+=======
+Note: coverage is also included in watch mode.
+
+> > > > > > > 32c2736 (skeleton start)
