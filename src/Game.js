@@ -1,4 +1,9 @@
 export class Game {
+  constructor() {
+    this.totalScore = 0;
+  }
   roll() {}
-  score() {}
+  score() {
+    return this.totalScore;
+  }
 }

@@ -1,15 +1,20 @@
-// use named imports
 import { Game } from "../src/Game";
 
-beforeAll(() => {});
+let game;
+
+beforeAll(() => {
+  game = new Game();
+});
 afterAll(() => {});
 
-it("Should have a method named roll", () => {
-  const game = new Game();
+it("should have a method named roll", () => {
   expect(game.roll).toBeDefined();
 });
 
-it("Should have a method named score", () => {
-  const game = new Game();
+it("should have a method named score", () => {
   expect(game.score).toBeDefined();
+});
+
+it("should return zero score when calling score before any roll", () => {
+  expect(game.score()).toBe(0);
 });
